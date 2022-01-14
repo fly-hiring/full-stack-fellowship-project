@@ -1,6 +1,6 @@
 # Fly.io Full Stack Phoenix Hiring Project
 
-Hello! This is a hiring project for our Full Stack developer intern position. If you apply, we'll ask you to do this project so we can assess your ability build customer facing features with the Fly.io GraphQL api in an Elixir/Phoenix/LiveView application.
+Hello! This is a hiring project for our Full Stack developer fellowship position. If you apply, we'll ask you to do this project so we can assess your ability build customer facing features with the Fly.io GraphQL api in an Elixir/Phoenix/LiveView application.
 
 ## The Job
 
@@ -8,7 +8,7 @@ As a full stack developer at Fly.io, you'll be working with the parts of our pro
 
 ## Hiring Project
 
-This app is a simplified version of the fly.io web dashboard built with the [Phoenix Framework](https://phoenixframework.org). It uses our GraphQL api to fetch data from your account and render it with LiveView. You can see a running version here: https://full-stack-intern-project.fly.dev. Note, you'll need your Fly.io personal access token to access this page. See [Tips and Tricks](#tips-and-tricks) for more info.
+This app is a simplified version of the fly.io web dashboard built with the [Phoenix Framework](https://phoenixframework.org). It uses our GraphQL api to fetch data from your account and render it with LiveView. You can see a running version here: https://full-stack-fellowship-project.fly.dev. Note, you'll need your Fly.io personal access token to access this page. See [Tips and Tricks](#tips-and-tricks) for more info.
 
 This project is built on Elixir Phoenix. It's ok if you don't yet know Elixir or Phoenix! We think you can learn, and are happy to have you learn while you do this project if you'd like. You'll need to install [Elixir](https://elixir-lang.org/install.html) and [Phoenix](https://hexdocs.pm/phoenix/installation.html#phoenix) in order to run the app locally. Once that is setup, you're ready to get started.
 

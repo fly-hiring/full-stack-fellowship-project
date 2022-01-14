@@ -1,6 +1,6 @@
-# fly.toml file generated for full-stack-intern-project on 2022-01-14T13:17:50-07:00
+# fly.toml file generated for full-stack-fellowship-project on 2022-01-14T13:50:51-07:00
 
-app = "full-stack-intern-project"
+app = "full-stack-fellowship-project"
 
 kill_signal = "SIGTERM"
 kill_timeout = 5
