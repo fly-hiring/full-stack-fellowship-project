@@ -1,0 +1,34 @@
+<main role="main" class="container">
+  <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
+  <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
+
+    <div class="bg-gray-800">
+      <nav class="bg-gray-800">
+        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+          <div class="border-b border-gray-700">
+            <div class="flex items-center justify-between h-16 px-4 sm:px-0">
+              <div class="flex items-center">
+                <div class="flex-shrink-0">
+                  <%= link to: Routes.region_path(@conn, :index) do %>
+                    <img class="h-8 w-8" src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg" alt="Workflow">
+                  <% end %>
+                </div>
+                <div class="hidden md:block">
+                  <div class="ml-10 flex items-baseline space-x-4">
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
+                <%= link to: Routes.delete_session_path(@conn, :delete), method: :delete,
+                  class: "whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-700" do %>
+                  Sign Out
+                <% end %>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <%= @inner_content %>
+</main>
